@@ -1,3 +1,42 @@
 @import "materialize/components/color";
 $primary-color: color("blue", "lighten-2") !default;
-@import "materialize"
+@import "materialize";
+
+
+
+.about {
+  width: 300px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+}
+
+.photo {
+  height: 305px;
+  width: 455px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.photo img {
+  height: 300px;
+  width: 450px;
+}
+
+.me {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.quote {
+  background-color: gray;
+  margin-top: 500px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  text-align: right;
+  font-size: 1.5em;
+}
