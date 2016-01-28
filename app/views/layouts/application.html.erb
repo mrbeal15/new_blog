@@ -7,29 +7,19 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <nav>
-    <div class="navwrapper">
-      <a href="/" class="brand-logo">Home</a>
-
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">blog</a><li>
-        <li><a href="#">resume</a><li>
-        <li><a href="#">projects</a><li>
-        <li><a href="#">contact</a><li>
+  <nav class="z-depth-6">
+      <ul>
+        <li><%= link_to 'blog', entries_path %><li>
+        <li><a href="/resume">resume</a><li>
+        <li><a href="http://github.com/mrbeal15">projects</a><li>
+        <li><a href="/">contact</a><li>
       </ul>
-
-      <ul id="slide-out" class="right side-nav">
-        <li><a href="#">blog</a><li>
-        <li><a href="#">resume</a><li>
-        <li><a href="#">projects</a><li>
-        <li><a href="#">contact</a><li>
-      </ul>
-
-      <a href="#" data-activates="slide-out" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
-    </div>
-
   </nav>
+
     <%= yield %>
 
+  <footer class="footer">
+    <h6>matthew beal</h6>
+  </footer>
 </body>
 </html>

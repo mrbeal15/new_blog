@@ -1,42 +1,118 @@
 @import "materialize/components/color";
-$primary-color: color("blue", "lighten-2") !default;
+$primary-color: color("blue", "darken-3") !default;
 @import "materialize";
 
-
-
-.about {
-  width: 300px;
-  text-align: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: 30px;
+@font-face {
+  font-family: 'Corbert-Regular';
+  src:url('/assets/fonts/Corbert_Reg/Corbert-Regular.otf') format("truetype");
+  font-weight: normal;
+  font-size: normal;
 }
 
-.photo {
-  height: 305px;
-  width: 455px;
-  margin-right: auto;
+body {
+  font-family: 'Corbert-Regular' sans-serif;
+}
+
+.about {
+  background-color: #1d3549;
+  width: 650px;
+  height: 310px;
   margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white;
+  overflow: auto;
+  padding-left: 3px;
+}
+
+.title {
+  text-align: center
+}
+
+.about p {
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .photo img {
-  height: 300px;
-  width: 450px;
+  float: right;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 6px;
+  border: 1px solid black;
 }
 
-.me {
+.photo img {
+  height: 200px;
+  width: 300px;
+}
+
+/*.me {
   width: 700px;
   margin-left: auto;
   margin-right: auto;
-}
+}*/
 
+.about p {
+  padding-top: 10px;
+}
 
 .quote {
-  background-color: gray;
-  margin-top: 500px;
-  padding-top: 30px;
-  padding-bottom: 10px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  background-color: #1d3549;
+  height: 200px;
+  padding-top: 85px;
+  padding-bottom: 2px;
   padding-right: 10px;
   text-align: right;
-  font-size: 1.5em;
+  font-size: 1.4em;
+  font-weight: lighter;
+  color: white;
 }
+
+.blog {
+  height: 600px;
+
+}
+
+
+nav {
+  position: fixed;
+  border-bottom: 3px solid black;
+  background-color: #1d3549;
+  top: 0px;
+}
+
+.footer {
+  height: 80px;
+  background-color: white;
+  padding-top: 75px;
+  padding-bottom: 0px;
+  padding-left: 4px;
+  }
+
+.card {
+  height: 400px;
+  width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  background-color: #1d3549;
+  color: white;
+}
+
+.card img {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 8px;
+}
+
+.card-reveal {
+  color: black;
+}
+
+
+
