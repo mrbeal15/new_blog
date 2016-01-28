@@ -2,13 +2,26 @@
 <html>
 <head>
   <title>Blog</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag    'application', media: 'all'%>
+  <%= javascript_include_tag 'application' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+  <nav>
+    <div class="nav-wrapper z-depth-1">
+      <ul>
+        <li><%= link_to 'blog', entries_path %><li>
+        <li><a href="/resume">resume</a><li>
+        <li><a href="http://github.com/mrbeal15">projects</a><li>
+        <li><a href="/">contact</a><li>
+      </ul>
+    </div>
+  </nav>
 
-<%= yield %>
+    <%= yield %>
 
+  <footer class="footer">
+    <h6>matthew beal</h6>
+  </footer>
 </body>
 </html>
