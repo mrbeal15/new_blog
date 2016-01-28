@@ -1,4 +1,12 @@
   <div class="parallax-container">
+    <div class="links">
+      <ul>
+        <li><%= link_to 'blog', entries_path %> | </li>
+        <li><%= link_to 'projects', entries_path %> | </li>
+        <li><%= link_to 'resume', entries_path %> | </li>
+        <li><%= link_to 'contact me', entries_path %></li>
+      </ul>
+    </div>
     <div class="parallax"><img src="http://1.bp.blogspot.com/-MMYkThgt_WA/Tmoe7Cpi2bI/AAAAAAAAAT0/a6VJl1EmADo/s1600/Black+and+White+Highway+Wp+long+goodbye.png"></div>
   </div>
 
@@ -15,7 +23,7 @@
       <%= image_tag "chicago2.jpg", class: "activator" %>
     </div>
     <div class="card-content">
-      <span class="card-title activator white-text text-darken-4">matt beal<i class="material-icons right">open</i></span>
+      <span class="card-title activator white-text text-darken-4">matt beal<strong class="material-icons right">about me</strong></span>
     </div>
     <div class="card-reveal">
       <span class="card-title grey-text text-darken-4">about me<i class="material-icons right">close</i></span>
