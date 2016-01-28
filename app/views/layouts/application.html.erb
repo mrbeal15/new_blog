@@ -7,13 +7,15 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <nav class="z-depth-6">
+  <nav>
+    <div class="nav-wrapper z-depth-1">
       <ul>
         <li><%= link_to 'blog', entries_path %><li>
         <li><a href="/resume">resume</a><li>
         <li><a href="http://github.com/mrbeal15">projects</a><li>
         <li><a href="/">contact</a><li>
       </ul>
+    </div>
   </nav>
 
     <%= yield %>
