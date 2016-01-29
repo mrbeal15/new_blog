@@ -82,16 +82,25 @@ body {
 nav {
   position: fixed;
   border-bottom: 3px solid black;
-  background-color: #1d3549;
   top: 0px;
 }
 
 .footer {
-  height: 80px;
-  background-color: white;
+  margin-top: 41%;
+  margin-left: 7px;
+  height: 14px;
+  width: 150px;
   padding-top: 75px;
   padding-bottom: 0px;
   padding-left: 4px;
+  }
+
+  .footer a {
+    color: black;
+    text-shadow: 0 0 8px;
+    -moz-text-shadow: 0 0 8px;
+    -webkit-text-shadow: 0 0 8px;
+    font-weight: lighter;
   }
 
 .card {
@@ -118,4 +127,100 @@ nav {
   margin-top: 80px;
 }
 
+li {
+  display: inline;
+  padding-left: 5px;
+}
 
+li a {
+  color: white;
+  font-size: 1.6em;
+  font-weight: lighter;
+  text-shadow: 0 0 6px;
+  -moz-text-shadow: 0 0 6px;
+  -webkit-text-shadow: 0 0 6px;
+  padding-left: 15px;
+}
+
+.links {
+  width: 400px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 450px;
+}
+
+.home {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.home a {
+  padding-top: 4px;
+  color: red;
+  font-size: 2em;
+  font-weight: lighter;
+  text-shadow: 0 0 8px;
+  -moz-text-shadow: 0 0 8px;
+  -webkit-text-shadow: 0 0 8px;
+}
+
+.office {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.office h1 {
+  color: red;
+  text-shadow: 0 0 8px;
+  -moz-text-shadow: 0 0 8px;
+  -webkit-text-shadow: 0 0 8px;
+  font-weight: lighter;
+}
+
+.blog-title a {
+  color: red;
+}
+
+.contact {
+  position: relative;
+  display: none;
+  width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+
+.sub {
+  width: 100px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.sub a{
+  color: white;
+  text-shadow: 0 0 6px;
+  -moz-text-shadow: 0 0 6px;
+  -webkit-text-shadow: 0 0 600px;
+}
+
+
+.close {
+  position: absolute;
+  right: 2px;
+  top: 13px;
+}
+
+.close a {
+  color: white;
+  text-shadow: 0 0 6px;
+  -moz-text-shadow: 0 0 6px;
+  -webkit-text-shadow: 0 0 6px;
+}
