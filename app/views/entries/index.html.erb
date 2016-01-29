@@ -1,3 +1,10 @@
+<div class="home"><%= link_to 'home', root_path %></div>
+
 <div class="office">
-  <h1>hello, this is the blog page</h1>
+  <h1>blog page</h1>
+  <% @entries.each do |entry| %>
+  <ul>
+    <li class="blog-title"><%= link_to "#{entry.title}", "/entries/#{entry.id}" %></li>
+  </ul>
+  <% end %>
 </div>
