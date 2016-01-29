@@ -9,9 +9,7 @@ $primary-color: color("blue", "darken-3") !default;
   font-size: normal;
 }
 
-body {
-  font-family: 'Corbert-Regular' sans-serif;
-}
+
 
 .about {
   background-color: #1d3549;
@@ -109,6 +107,7 @@ nav {
   margin-right: auto;
   margin-left: auto;
   margin-top: 40px;
+  margin-bottom: 80px;
   background-color: #1d3549;
   color: white;
 }
@@ -151,13 +150,30 @@ li a {
 }
 
 .home {
-  width: 400px;
+  width: 150px;
+  margin-top: 8px;
+  left: 2px;
+  text-align: center;
+}
+
+.home a {
+  padding-top: 4px;
+  color: red;
+  font-size: 2em;
+  font-weight: lighter;
+  text-shadow: 0 0 9px;
+  -moz-text-shadow: 0 0 9px;
+  -webkit-text-shadow: 0 0 9px;
+}
+
+.back {
+  width: 150px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
 }
 
-.home a {
+.back a {
   padding-top: 4px;
   color: red;
   font-size: 2em;
@@ -175,7 +191,23 @@ li a {
 }
 
 .office h1 {
-  color: red;
+  color: black;
+  text-shadow: 0 0 8px;
+  -moz-text-shadow: 0 0 8px;
+  -webkit-text-shadow: 0 0 8px;
+  font-weight: lighter;
+}
+
+.office h3 {
+  color: white;
+  text-shadow: 0 0 8px;
+  -moz-text-shadow: 0 0 8px;
+  -webkit-text-shadow: 0 0 8px;
+  font-weight: lighter;
+}
+
+.office h4 {
+  color: black;
   text-shadow: 0 0 8px;
   -moz-text-shadow: 0 0 8px;
   -webkit-text-shadow: 0 0 8px;
@@ -189,7 +221,7 @@ li a {
 .contact {
   position: relative;
   display: none;
-  width: 550px;
+  width: 570px;
   margin-right: auto;
   margin-left: auto;
   font-size: 1.2em;
