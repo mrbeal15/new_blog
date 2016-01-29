@@ -1,4 +1,15 @@
-<h1>hello, individual blog page</h1>
+<div class="home"><%= link_to 'home', root_path %></div>
 
-<h1><%= @entry.title %></h1>
-<p><%= @entry.body %></p>
+
+<div class="parallax-container2">
+<div class="parallax"><%= image_tag "https://puserscontentstorage.blob.core.windows.net/userimages/ce7802e3-4190-4ef1-a63f-9327380e17b6/635211708360193050_mood-book-pages-grass-hd-wallpaper.jpg" %></div>
+
+
+<div class="office">
+  <h1><%= @entry.title %></h1>
+  <h4><%= @entry.created_at.strftime("%B %e, %Y") %></h4
+  <p><%= @entry.body %></p>
+</div>
+
+<div class="back"><%= link_to 'back', entries_path %></div>
+</div>
