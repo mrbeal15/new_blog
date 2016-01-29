@@ -86,11 +86,21 @@ nav {
 }
 
 .footer {
-  height: 80px;
-  background-color: white;
+  margin-top: 41%;
+  margin-left: 7px;
+  height: 14px;
+  width: 150px;
   padding-top: 75px;
   padding-bottom: 0px;
   padding-left: 4px;
+  }
+
+  .footer a {
+    color: black;
+    text-shadow: 0 0 8px;
+    -moz-text-shadow: 0 0 8px;
+    -webkit-text-shadow: 0 0 8px;
+    font-weight: lighter;
   }
 
 .card {
@@ -148,12 +158,13 @@ li a {
 }
 
 .home a {
-  color: black;
+  padding-top: 4px;
+  color: red;
   font-size: 2em;
   font-weight: lighter;
-  text-shadow: 0 0 6px;
-  -moz-text-shadow: 0 0 6px;
-  -webkit-text-shadow: 0 0 6px;
+  text-shadow: 0 0 8px;
+  -moz-text-shadow: 0 0 8px;
+  -webkit-text-shadow: 0 0 8px;
 }
 
 .office {
@@ -163,8 +174,16 @@ li a {
   text-align: center;
 }
 
+.office h1 {
+  color: red;
+  text-shadow: 0 0 8px;
+  -moz-text-shadow: 0 0 8px;
+  -webkit-text-shadow: 0 0 8px;
+  font-weight: lighter;
+}
+
 .blog-title a {
-  color: black;
+  color: red;
 }
 
 .contact {
