@@ -1,4 +1,6 @@
 class EntriesController < ApplicationController
+
+
   def index
     @entries = Entry.all
   end
@@ -12,4 +14,5 @@ class EntriesController < ApplicationController
   def entry_params
     params.require(:entry).permit(:id, :title, :body)
   end
+
 end

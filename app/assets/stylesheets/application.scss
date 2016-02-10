@@ -184,13 +184,19 @@ li a {
 }
 
 .office {
+  height: 500px;
   width: 700px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 30px;
   text-align: center;
+  padding: 20px;
+  background-color: white;
+  opacity: 0.7;
+  border: 2px solid black;
 }
 
-.office h1 {
+.office h3 {
   color: black;
   text-shadow: 0 0 8px;
   -moz-text-shadow: 0 0 8px;
@@ -198,7 +204,28 @@ li a {
   font-weight: lighter;
 }
 
-.office h3 {
+.office2 {
+  height: 500px;
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  opacity: 0.9;
+  border: 2px solid black;
+}
+
+.office2 h2 {
+  color: black;
+  text-shadow: 0 0 8px;
+  -moz-text-shadow: 0 0 8px;
+  -webkit-text-shadow: 0 0 8px;
+  font-weight: lighter;
+}
+
+.office2 h3 {
   color: white;
   text-shadow: 0 0 8px;
   -moz-text-shadow: 0 0 8px;
@@ -206,7 +233,8 @@ li a {
   font-weight: lighter;
 }
 
-.office h4 {
+
+.office2 h5 {
   color: black;
   text-shadow: 0 0 8px;
   -moz-text-shadow: 0 0 8px;
@@ -255,4 +283,30 @@ li a {
   text-shadow: 0 0 6px;
   -moz-text-shadow: 0 0 6px;
   -webkit-text-shadow: 0 0 6px;
+}
+
+.admin {
+  position: fixed;
+  bottom: 0px;
+  height: 25px;
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.login {
+  position: fixed;
+  bottom: 0px;
+  display: none;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-shadow: 0 0 6px;
+  -moz-text-shadow: 0 0 6px;
+  -webkit-text-shadow: 0 0 6px;
+}
+
+.login h4 {
+  padding-left: 10px;
 }
