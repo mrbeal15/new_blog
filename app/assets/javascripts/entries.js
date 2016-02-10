@@ -13,4 +13,10 @@ $(document).ready(function(){
   $('.home a').on('click', function(event){
     $('.parallax').parallax();
   })
+
+  $('.admin').on('click', function(event){
+    event.preventDefault();
+    $('.admin').hide();
+    $('.login').show();
+  })
 })
