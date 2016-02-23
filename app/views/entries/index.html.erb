@@ -14,7 +14,12 @@
 
 <div class="home"><%= link_to 'home', root_path %></div>
 
-<div class="admin">
-  <%= link_to "admin", login_index_path %>
-</div>
-
+<% if logged_in? %>
+  <div class="logout">
+    <%= link_to "logout", '/logout', method: "post" %>
+  </div>
+<% else %>
+  <div class="admin">
+    <%= link_to "admin", sessions_new_path %>
+  </div>
+<% end %>

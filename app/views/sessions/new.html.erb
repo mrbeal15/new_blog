@@ -1,2 +1,13 @@
-<h1>Sessions#new</h1>
-<p>Find me in app/views/sessions/new.html.erb</p>
+<div class="login-form">
+  <%= form_for(:sessions, url: '/sessions') do |f| %>
+
+    <%= f.text_field :username, class: 'form-control', placeholder: 'username' %>
+
+    <%= f.password_field :password, class: 'form-control', placeholder: 'password' %><br>
+    <%= submit_tag "log in" %>
+  <% end %>
+</div>
+
+<div id="back">
+  <%= link_to "back", entries_path %>
+</div>
