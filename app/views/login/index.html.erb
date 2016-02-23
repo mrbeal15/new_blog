@@ -1,0 +1,13 @@
+<div class="login-form">
+  <%= form_for(:login, url: '/login') do |f| %>
+
+    <%= f.text_field :username, class: 'form-control', placeholder: 'username' %>
+
+    <%= f.password_field :password, class: 'form-control', placeholder: 'password' %><br>
+    <%= submit_tag "log in" %>
+  <% end %>
+</div>
+
+<div id="back">
+  <%= link_to "back", entries_path %>
+</div>
