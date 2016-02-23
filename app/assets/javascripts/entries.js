@@ -14,9 +14,5 @@ $(document).ready(function(){
     $('.parallax').parallax();
   })
 
-  $('.admin').on('click', function(event){
-    event.preventDefault();
-    $('.admin').hide();
-    $('.login').show();
-  })
+
 })

@@ -1,7 +1,6 @@
 <div class="parallax-container2">
 <div class="parallax"><%= image_tag "http://www.sofiaquintero.com/wp-content/uploads/2014/08/o-EMPTY-CLASSROOM-facebook.jpg" %></div>
 
-<div class="home"><%= link_to 'home', root_path %></div>
 
 <div class="office">
   <h3>blog posts</h3>
@@ -13,11 +12,14 @@
 </div>
 </div>
 
-<div class="admin">
-admin
-</div>
+<div class="home"><%= link_to 'home', root_path %></div>
 
-<div class="login">
-  <h4>login</h4>
-
-</div>
+<% if logged_in? %>
+  <div class="logout">
+    <%= link_to "logout", '/logout', method: "post" %>
+  </div>
+<% else %>
+  <div class="admin">
+    <%= link_to "admin", sessions_new_path %>
+  </div>
+<% end %>
