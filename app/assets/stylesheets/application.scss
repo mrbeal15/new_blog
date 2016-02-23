@@ -327,17 +327,18 @@ li a {
   padding-top: 30px;
 }
 
-input#login_username.form-control {
-  width: 75%;
+input#sessions_username.form-control {
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
+  text-align: center;
 }
 
-input#login_password.form-control {
-  width: 75%;
+input#sessions_password.form-control {
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 10px;
+  text-align: center;
 }
 
 #back {
