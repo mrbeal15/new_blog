@@ -285,6 +285,19 @@ li a {
   -webkit-text-shadow: 0 0 6px;
 }
 
+.logout {
+  position: fixed;
+  bottom: 0px;
+  height: 25px;
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.logout a {
+  color: black;
+}
+
 .admin {
   position: fixed;
   bottom: 0px;
@@ -350,4 +363,26 @@ input#sessions_password.form-control {
 
 #back a {
   color: black;
+}
+
+.new_entry {
+  width: 600px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  border: 2px solid black;
+  padding: 6px;
+}
+
+input#entries_title {
+  width: 60%;
+}
+
+input#entries_tags {
+  width: 60%;
+}
+
+textarea#entries_body {
+  height: 320px;
 }
