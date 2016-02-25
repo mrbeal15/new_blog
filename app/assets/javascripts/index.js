@@ -5,7 +5,7 @@ $(document).ready(function(){
   $(".contact_link").on('click', function(event){
     event.preventDefault();
     $(".contact").show();
-    $('#textarea1').val('New Text');
+    $('#textarea1').val('');
     $('#textarea1').trigger('autoresize');
 
   })

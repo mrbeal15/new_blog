@@ -3,6 +3,9 @@
 
 
 <div class="office">
+  <% if logged_in? %>
+    <%= link_to "new", new_entry_path %>
+  <% end %>
   <h3>blog posts</h3>
   <% @entries.each do |entry| %>
   <ul>

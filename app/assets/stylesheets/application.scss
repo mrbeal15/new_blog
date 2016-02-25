@@ -109,6 +109,7 @@ nav {
   margin-bottom: 80px;
   background-image: url('http://wallpoper.com/images/00/27/12/90/blue-textures_00271290.jpg');
   color: white;
+  overflow: auto;
 }
 
 .card img {
@@ -194,13 +195,26 @@ li a {
   background-color: white;
   opacity: 0.9;
   border: 2px solid black;
+  overflow: auto;
 }
 
-.office h3 {
+.office p {
+  text-align: left;
+}
+
+.office h2 {
   color: black;
   text-shadow: 0 0 8px;
   -moz-text-shadow: 0 0 8px;
   -webkit-text-shadow: 0 0 8px;
+  font-weight: lighter;
+}
+
+.office h5 {
+  color: black;
+  text-shadow: 0 0 10px;
+  -moz-text-shadow: 0 0 10px;
+  -webkit-text-shadow: 0 0 10px;
   font-weight: lighter;
 }
 
@@ -217,13 +231,6 @@ li a {
   border: 2px solid black;
 }
 
-.office2 h2 {
-  color: black;
-  text-shadow: 0 0 8px;
-  -moz-text-shadow: 0 0 8px;
-  -webkit-text-shadow: 0 0 8px;
-  font-weight: lighter;
-}
 
 .office2 h3 {
   color: white;
@@ -250,10 +257,12 @@ li a {
   position: relative;
   display: none;
   width: 570px;
+  height: 570px;
   margin-right: auto;
   margin-left: auto;
   font-size: 1.2em;
   font-weight: lighter;
+  overflow: auto;
 }
 
 .sub {
@@ -261,7 +270,6 @@ li a {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 100px;
 }
 
 .sub a{
@@ -283,6 +291,19 @@ li a {
   text-shadow: 0 0 6px;
   -moz-text-shadow: 0 0 6px;
   -webkit-text-shadow: 0 0 6px;
+}
+
+.logout {
+  position: fixed;
+  bottom: 0px;
+  height: 25px;
+  width: 100%;
+  text-align: right;
+  padding-right: 10px;
+}
+
+.logout a {
+  color: black;
 }
 
 .admin {
@@ -350,4 +371,30 @@ input#sessions_password.form-control {
 
 #back a {
   color: black;
+}
+
+.new_entry {
+  width: 600px;
+  height: 500px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  border: 2px solid black;
+  padding: 6px;
+}
+
+input#entries_title {
+  width: 60%;
+}
+
+input#entries_tags {
+  width: 60%;
+}
+
+textarea#entries_body {
+  height: 320px;
+}
+
+textarea.materialize-textarea {
+  padding: 0em;
 }

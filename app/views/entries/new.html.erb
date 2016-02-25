@@ -1,0 +1,15 @@
+<% if !logged_in? %>
+  <%= link_to "log in", sessions_new_path %>
+<% else %>
+  <div class="new_entry">
+    <%= form_for(:entries, url: '/entries') do |f| %>
+
+      <%= f.text_field :title, placeholder: 'title' %>
+
+      <%= f.text_area :body, placeholder: 'body' %>
+
+      <%= f.text_field :tags, placeholder: 'tags' %><br>
+      <%= submit_tag "post" %>
+    <% end %>
+  </div>
+<% end %>
