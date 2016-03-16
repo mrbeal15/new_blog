@@ -187,6 +187,7 @@ li a {
 .blog_index {
   height: 500px;
   width: 700px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
@@ -374,4 +375,35 @@ textarea#entries_body {
 
 textarea.materialize-textarea {
   padding: 0em;
+}
+
+.blog_entry {
+  height: 700px;
+  width: 500px;
+  border: 2px solid black;
+  background-color: white;
+  opacity: 0.9;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+}
+
+.blog_entry h2 {
+  text-align: center;
+  text-shadow: 0 0 6px;
+  -moz-text-shadow: 0 0 6px;
+  -webkit-text-shadow: 0 0 6px;
+  font-weight: lighter;
+}
+
+.blog_entry h5 {
+  text-align: center;
+  -moz-text-shadow: 0 0 6px;
+  -webkit-text-shadow: 0 0 6px;
+  font-weight: lighter;
+}
+
+.blog_entry p {
+  margin-left: 15px;
+  margin-right: 15px;
 }
